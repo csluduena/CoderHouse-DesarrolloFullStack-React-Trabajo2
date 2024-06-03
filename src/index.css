@@ -1,0 +1,132 @@
+* {
+    color: black;
+}
+
+@font-face {
+    font-family: "dienasty";
+    src: url(./assets/fonts/dienasty.otf);
+}
+
+@font-face {
+    font-family: "MuseoSans-900";
+    src: url(./assets/fonts/MuseoSans-900.otf);
+}
+
+.guitarStyle {
+    width: 80%;
+    margin-left: 10%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.colorPrice {
+    color: #164212;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4em;
+}
+
+.keychainify-checked {
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+    /* Elimina la decoración de texto */
+    color: inherit;
+    /* Hereda el color del texto del elemento padre */
+}
+
+a:hover {
+    cursor: pointer;
+    /* Estilos para el estado de hover (cuando el cursor pasa sobre el enlace) */
+    /* Puedes dejarlo vacío para desactivar cualquier cambio de estilo al pasar el cursor */
+}
+
+
+.imgCfg {
+    width: 70%;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moreInfo {
+    font-size: 25px;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid #8b8585;
+}
+
+.mainTitleCFG:hover {
+    color: #d50808;
+}
+
+.mainTitleCFG {
+    background-color: #333;
+    color: #891a1a;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+
+
+.botonBuy {
+    font-size: 25px;
+    margin: 2%;
+    cursor: pointer;
+    padding: 4px;
+}
+
+hr {
+    color: black;
+}
+
+.hrCfg {
+    font-size: 30px;
+}
+
+.greetingCFG {
+    font-family: "dienasty";
+    font-size: 45px;
+    color: #891a1a;
+    text-align: center;
+}
+
+.priceCFG {
+    color: #164212;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.productDesCFG {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.productNomCFG {
+    font-size: 35px;
+    margin-bottom: -3%;
+}
+
+.carrito {
+    color: white;
+    font-size: 40px;
+}
+
+.textFooter {
+    color: white;
+    font-size: 20px;
+    margin-bottom: -0%;
+}
