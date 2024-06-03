@@ -7,7 +7,7 @@ export const ItemList = ({ productos }) => {
             {
                 productos.length > 0 ?
                     productos.map((producto) => (
-                        <div key={producto.id}>
+                        <div key={producto.id} className="navRoutes">
                             <Item producto={producto} />
                             <hr className='hrCfg' />
                         </div>

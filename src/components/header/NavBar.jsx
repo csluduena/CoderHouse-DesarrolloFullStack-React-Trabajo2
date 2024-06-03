@@ -11,7 +11,7 @@ const Navbar = ({ numero }) => {
             </div>
             <div style={{ backgroundColor: '#333333', display: 'flex', alignItems: 'center' }}>
                 {categories.map((categoria) => (
-                    <NavLink key={categoria.id} to={`/category/${categoria.id}`} style={{ fontSize: '30px', margin: '0 10px', color: 'white', textDecoration: 'none' }}>
+                    <NavLink key={categoria.id} to={`/category/${categoria.id}`} className="navRoutes" style={{ fontSize: '30px', margin: '0 10px', color: 'white', textDecoration: 'none' }}>
                         {categoria.nombre}
                     </NavLink >
                 ))}
