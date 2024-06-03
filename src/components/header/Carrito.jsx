@@ -11,7 +11,7 @@ export const Carrito = (props) => {
 }
 
 Carrito.propTypes = {
-    numero: PropTypes.number.isRequired,  // Define numero como número requerido
+    numero: PropTypes.number.isRequired,
 };
 
 export default Carrito;

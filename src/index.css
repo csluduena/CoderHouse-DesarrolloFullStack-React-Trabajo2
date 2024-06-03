@@ -35,15 +35,11 @@ li {
 
 a {
     text-decoration: none;
-    /* Elimina la decoración de texto */
     color: inherit;
-    /* Hereda el color del texto del elemento padre */
 }
 
 a:hover {
     cursor: pointer;
-    /* Estilos para el estado de hover (cuando el cursor pasa sobre el enlace) */
-    /* Puedes dejarlo vacío para desactivar cualquier cambio de estilo al pasar el cursor */
 }
 
 

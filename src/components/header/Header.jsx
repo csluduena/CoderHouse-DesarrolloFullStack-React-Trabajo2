@@ -1,4 +1,4 @@
-import Navbar from './NavBar';  // Asegúrate de que la importación coincida con la exportación
+import Navbar from './NavBar';
 import PropTypes from 'prop-types';
 
 export const Header = (props) => {
@@ -10,7 +10,7 @@ export const Header = (props) => {
 }
 
 Header.propTypes = {
-    numero: PropTypes.number.isRequired,  // Define numero como número requerido
+    numero: PropTypes.number.isRequired,
 };
 
 export default Header;

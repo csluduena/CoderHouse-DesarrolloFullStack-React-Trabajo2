@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../../src/index.css'; // Asegúrate de tener estilos CSS para el componente
+import '../../src/index.css';
 
 export const Item = ({ producto }) => {
     const [messages, setMessages] = useState([]);
